@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="108" fill="url(#grad)"/>
+  <!-- Book / Khata Graphic -->
+  <path d="M120 110 C 120 110, 200 95, 256 120 C 312 95, 392 110, 392 110 L 392 370 C 392 370, 312 355, 256 380 C 200 355, 120 370, 120 370 Z" fill="#ffffff" opacity="0.95"/>
+  <line x1="256" y1="120" x2="256" y2="380" stroke="#059669" stroke-width="8" stroke-linecap="round"/>
+  <!-- Taka Symbol / Ledger Lines -->
+  <circle cx="200" cy="220" r="36" fill="#10b981" opacity="0.2"/>
+  <text x="200" y="235" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="#047857" text-anchor="middle">৳</text>
+  <line x1="160" y1="280" x2="230" y2="280" stroke="#059669" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <line x1="160" y1="310" x2="215" y2="310" stroke="#059669" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <!-- Checkmark / Pen -->
+  <path d="M295 240 L 325 270 L 375 205" fill="none" stroke="#059669" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="290" y1="300" x2="360" y2="300" stroke="#059669" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <line x1="290" y1="330" x2="340" y2="330" stroke="#059669" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+</svg>

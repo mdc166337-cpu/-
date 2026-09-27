@@ -1,0 +1,6 @@
+{
+  "name": "বাকি খাতা - Due Management System",
+  "description": "অনলাইন সেবা কেন্দ্র, সড়াবাড়ীয়া বাজার (স্বত্বাধিকারী: মোঃ নুর আলম) - আধুনিক বাকি হিসাব, কাস্টমার লেজার ও SMS রিমাইন্ডার সিস্টেম।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

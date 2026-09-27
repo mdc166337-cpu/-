@@ -1,0 +1,136 @@
+{
+  "admin": {
+    "id": "admin_1",
+    "username": "admin",
+    "email": "onlainshop240@gmail.com",
+    "passwordHash": "a86e46fa54fcac1c3984b861e14f513b:a64d9d5647330f8f6eeb7f4a8ead3e5ae4c3f1d810c94f5b16a59275b97149debf2445c54c47d18c9bfb5b19ee8fc7086e106aea075588ad1edc765fd10b6b12",
+    "securityPin": "240240",
+    "createdAt": "2026-09-01T00:00:00.000Z"
+  },
+  "settings": {
+    "shopName": "অনলাইন সেবা কেন্দ্র",
+    "ownerName": "মোঃ নুর আলম",
+    "mobile": "01712447027",
+    "address": "সড়াবাড়ীয়া বাজার",
+    "currency": "৳",
+    "defaultDueDays": 5,
+    "smsConfig": {
+      "enabled": false,
+      "provider": "generic",
+      "apiUrl": "https://api.sms-gateway.com/api/v1/send",
+      "apiKey": "",
+      "senderId": "ONLINE SEBA",
+      "httpMethod": "POST",
+      "customHeaders": "{\n  \"Content-Type\": \"application/json\"\n}",
+      "bodyPayload": "{\n  \"to\": \"{mobile}\",\n  \"message\": \"{message}\",\n  \"sender\": \"{senderId}\"\n}",
+      "defaultTemplate": "প্রিয় [Customer Name], আপনার [Shop Name]-এর কাছে [Due Amount] টাকা বাকি রয়েছে। নির্ধারিত তারিখ [Due Date]-এর মধ্যে পরিশোধ করার অনুরোধ করা হলো। প্রয়োজনে: [Contact Number]। ধন্যবাদ।"
+    }
+  },
+  "customers": [
+    {
+      "name": "সড়াবাড়ীয়া মাধ্যমিক বিদ্যাল্য",
+      "mobile": "০১৩০৯১১৫৩৬২",
+      "altMobile": "০১৩০৯১১৫৩৬২",
+      "address": "সড়াবাড়ীয়া",
+      "photo": "",
+      "openingDue": 250,
+      "notes": "",
+      "passcode": "৫৩৬২",
+      "id": "CUST-1002",
+      "currentDue": 250,
+      "totalPurchases": 250,
+      "totalPaid": 0,
+      "createdAt": "2026-09-27",
+      "updatedAt": "2026-09-27T03:15:13.783Z"
+    },
+    {
+      "name": "সড়াবাড়ীয়া দাখিল মাদ্রাসা",
+      "mobile": "01712447027",
+      "altMobile": "01712447027",
+      "address": "সড়াবাড়ীয়া",
+      "photo": "",
+      "openingDue": 445,
+      "notes": "",
+      "passcode": "2222",
+      "id": "CUST-1001",
+      "currentDue": 445,
+      "totalPurchases": 445,
+      "totalPaid": 0,
+      "createdAt": "2026-09-22",
+      "updatedAt": "2026-09-22T04:41:36.151Z"
+    }
+  ],
+  "transactions": [],
+  "smsLogs": [
+    {
+      "customerId": "CUST-1001",
+      "customerName": "সড়াবাড়ীয়া দাখিল মাদ্রাসা",
+      "mobile": "01712447027",
+      "amount": 445,
+      "dueDate": "2026-10-10",
+      "message": "প্রিয় সড়াবাড়ীয়া দাখিল মাদ্রাসা, বাকি টাকা 445। পরিশোধের শেষ তারিখ ১০ অক্টোবর, ২০২৬।",
+      "status": "sent",
+      "error": null,
+      "response": "Simulated dispatch (Gateway API key not yet configured in Settings. SMS recorded in system).",
+      "gatewayUsed": "Simulated Gateway / Ready for API Key",
+      "id": "SMS-365926",
+      "sentAt": "2026-09-27T03:22:45.926Z"
+    },
+    {
+      "customerId": "CUST-1001",
+      "customerName": "সড়াবাড়ীয়া দাখিল মাদ্রাসা",
+      "mobile": "01712447027",
+      "amount": 445,
+      "dueDate": "2026-10-05",
+      "message": "প্রিয় সড়াবাড়ীয়া দাখিল মাদ্রাসা, বাকি 445 টাকা। পরিশোধের তারিখ ৫ অক্টোবর, ২০২৬।",
+      "status": "sent",
+      "error": null,
+      "response": "Simulated dispatch (Gateway API key not yet configured in Settings. SMS recorded in system).",
+      "gatewayUsed": "Simulated Gateway / Ready for API Key",
+      "id": "SMS-357361",
+      "sentAt": "2026-09-27T03:22:37.361Z"
+    },
+    {
+      "customerId": "CUST-1001",
+      "customerName": "সড়াবাড়ীয়া দাখিল মাদ্রাসা",
+      "mobile": "01712447027",
+      "amount": 445,
+      "dueDate": "2026-10-02",
+      "message": "প্রিয় সড়াবাড়ীয়া দাখিল মাদ্রাসা, আপনার অনলাইন সেবা কেন্দ্র-এর কাছে 445 টাকা বাকি রয়েছে। নির্ধারিত তারিখ 2026-10-02-এর মধ্যে পরিশোধ করার অনুরোধ করা হলো। প্রয়োজনে: 01712447027। ধন্যবাদ।",
+      "status": "sent",
+      "error": null,
+      "response": "Simulated dispatch (Gateway API key not yet configured in Settings. SMS recorded in system).",
+      "gatewayUsed": "Simulated Gateway / Ready for API Key",
+      "id": "SMS-071014",
+      "sentAt": "2026-09-27T03:17:51.014Z"
+    },
+    {
+      "customerId": "CUST-1002",
+      "customerName": "সড়াবাড়ীয়া মাধ্যমিক বিদ্যাল্য",
+      "mobile": "০১৩০৯১১৫৩৬২",
+      "amount": 250,
+      "dueDate": "2026-10-02",
+      "message": "প্রিয় সড়াবাড়ীয়া মাধ্যমিক বিদ্যাল্য, আপনার অনলাইন সেবা কেন্দ্র-এর কাছে 250 টাকা বাকি রয়েছে। নির্ধারিত তারিখ 2026-10-02-এর মধ্যে পরিশোধ করার অনুরোধ করা হলো। প্রয়োজনে: 01712447027। ধন্যবাদ।",
+      "status": "sent",
+      "error": null,
+      "response": "Simulated dispatch (Gateway API key not yet configured in Settings. SMS recorded in system).",
+      "gatewayUsed": "Simulated Gateway / Ready for API Key",
+      "id": "SMS-069749",
+      "sentAt": "2026-09-27T03:17:49.749Z"
+    },
+    {
+      "customerId": "CUST-1002",
+      "customerName": "সড়াবাড়ীয়া মাধ্যমিক বিদ্যাল্য",
+      "mobile": "০১৩০৯১১৫৩৬২",
+      "amount": 250,
+      "dueDate": "2026-10-02",
+      "message": "প্রিয় সড়াবাড়ীয়া মাধ্যমিক বিদ্যাল্য, আপনার অনলাইন সেবা কেন্দ্র-এর কাছে 250 টাকা বাকি রয়েছে। নির্ধারিত তারিখ 2026-10-02-এর মধ্যে পরিশোধ করার অনুরোধ করা হলো। প্রয়োজনে: 01712447027। ধন্যবাদ।",
+      "status": "sent",
+      "error": null,
+      "response": "Simulated dispatch (Gateway API key not yet configured in Settings. SMS recorded in system).",
+      "gatewayUsed": "Simulated Gateway / Ready for API Key",
+      "id": "SMS-068679",
+      "sentAt": "2026-09-27T03:17:48.679Z"
+    }
+  ]
+}
